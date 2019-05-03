@@ -39,16 +39,16 @@ return Vector(- vec._x, - vec._y)
 return vec.copy
 ```
 #### `vec + other`, `vec += other` and `vec.add(other)`
-Vector addition.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vector addition.
 #### `vec - other`, `vec -= other` and `vec.subtract(other)`
-Vector subtraction.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vector subtraction.
 #### `vec / k`, `vec /= k` and `vec.scalarDiv(k)`
-Scalar division.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scalar division.
 #### `vec * other` and `vec.dot(other)`
-Returns the dot product.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the dot product.
 > **Note:** `vec *= other` raises `TypeError`
 #### `vec * k`, `k * vec` and `vec.scalarMul(k)`
-Scalar multiplication.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scalar multiplication.
 
 <br>
 
@@ -59,15 +59,15 @@ Let `vec` and `other` be `Vector` instances:
 - `vec[1]` gets and sets `vec.y`
 - `vec[i]`, where i > 1; raises `IndexError`
 ### Length
-`len(vec)` will always return `2`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`len(vec)` will always return `2`.
 #### `vec.setValue(newX, newY)`
-Sets `vec.x` and `vec.y` to `newX` and `newY`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets `vec.x` and `vec.y` to `newX` and `newY`.
 #### `__eq__` and `__ne__`
-`vec == other` returns `True` if `vec.x == other.x` and `vec.y == other.y`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`vec == other` returns `True` if `vec.x == other.x` and `vec.y == other.y`
 #### `__str__`
-Returns `"<{x}, {y}>"`, where `{x}` and `{y}` are the instance's x and y values.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns `"<{x}, {y}>"`, where `{x}` and `{y}` are the instance's x and y values.
 #### `__repr__`
-Returns:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns:
 ```
 <{x}, {y}>
 Magnitude: {magnitude}
