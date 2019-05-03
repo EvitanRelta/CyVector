@@ -61,7 +61,7 @@ Let `vec` and `other` be `Vector` instances:
 ### Length
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`len(vec)` will always return `2`.
 #### `vec.setValue(newX, newY)`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets `vec.x` and `vec.y` to `newX` and `newY`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets `vec.x` and `vec.y` to `newX` and `newY` respectively.
 #### `__eq__` and `__ne__`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`vec == other` returns `True` if `vec.x == other.x` and `vec.y == other.y`
 #### `__str__`
