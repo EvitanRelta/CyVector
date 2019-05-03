@@ -4,7 +4,7 @@ An optimised lightweight module, containing the `Vector` class for **2D vectors*
 ## Getting Started
 No additional modules required.
 
-Just import the `CyVector.pyd` file.
+Just import CyVector and use the `Vector` class
 
 > **Note:** Changing the `CyVector.pyd` file name will break the module. If you want to change its name, you'll have to recompile it.
 
