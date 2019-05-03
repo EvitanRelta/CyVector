@@ -19,42 +19,17 @@ Calculates and returns the magnitude.
 Constructs and returns the unit vector.
 > **Note:** Similar to `magnitude`, first time `unitVec` is called, the unit vector is calculated, saved in `_unitVecVal` and returned; unless `x` or `y` is changed.
 #### `copy`
-Constructs and returns a new `Vector` with the same values.
+Constructs and returns a new `Vector` with the `x`, `y` values, and `_magVal` and `_unitVecVal` values _(if they've been calculated)_.
 
 <br>
 
-## Arithmetic and Algebraic Methods
+## 
+
+<br>
+
+## Arithmetic Operators and Methods
 Let `vec` and `other` be `Vector` instances,
-and `k` be a int or float
-#### `vec.add(other)` (vector addition)
-```python
-vec.x += other.x
-vec.y += other.y
-```
-#### `vec.subtract(other)` (vector subtraction)
-```python
-vec.x -= other.x
-vec.y -= other.y
-```
-#### `vec.scalarDiv(k)` (scalar division)
-```python
-vec.x /= k
-vec.y /= k
-```
-#### `vec.scalarMul(k)` (scalar multiplication)
-```python
-vec.x *= k
-vec.y *= k
-```
-#### `vec.dot(other)` (dot product)
-```python
-return (vec.x * other.x) + (vec.y * other.y)
-```
-
-<br>
-
-## Arithmetic Operators
-Let `vec` be a `Vector` instance:
+and `k` be a `int` or `float`:
 #### `- vec`
 ```
 return Vector(- vec._x, - vec._y)
@@ -63,11 +38,17 @@ return Vector(- vec._x, - vec._y)
 ```
 return vec.copy
 ```
-#### `- vec`
-```
-return Vector(- vec._x, - vec._y)
-```
-
+#### `vec + other`, `vec += other` and `vec.add(other)`
+Vector addition.
+#### `vec - other`, `vec -= other` and `vec.subtract(other)`
+Vector subtraction.
+#### `vec / k`, `vec /= k` and `vec.scalarDiv(k)`
+Scalar division.
+#### `vec * other` and `vec.dot(other)`
+Returns the dot product.
+> **Note:** `vec *= other` raises `TypeError`
+#### `vec * k`, `k * vec` and `vec.scalarMul(k)`
+Scalar multiplication.
 
 <br>
 
@@ -110,3 +91,6 @@ Unit Vector: <Undefined>
 ***
 ## Todo
 - [ ] `- vec` should return `Vector` `output`, with `output._magVal = vec._magVal` and `output._unitVecVal = new Vector(-vec._unitVecVal.x, -vec._unitVecVal.y)`
+- [ ] Add `.toNumpyArray()`
+- [ ] Add `list(vec)` and `tuple(vec)`
+- [ ] Create optimised list of `Vectors`
