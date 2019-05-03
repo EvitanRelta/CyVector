@@ -23,10 +23,6 @@ Just import the `CyVector.pyd` file.
 
 <br>
 
-## 
-
-<br>
-
 ## Arithmetic Operators and Methods
 Let `vec` and `other` be `Vector` instances,
 and `k` be a `int` or `float`:
@@ -79,7 +75,7 @@ similarly, `{unitVector}` is the unit vector or `<Not yet calculated>`.
 
 <br>
 
-Null vectors _(ie. vector: <0, 0>)_ will return the string:
+**Null vectors** _(ie. vector: <0, 0>)_ will return the string:
 ```
 <0, 0>
 Magnitude: 0
