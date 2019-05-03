@@ -89,4 +89,4 @@ Unit Vector: <Undefined>
 - [ ] `- vec` should return `Vector` `output`, with `output._magVal = vec._magVal` and `output._unitVecVal = new Vector(-vec._unitVecVal.x, -vec._unitVecVal.y)`
 - [ ] Add `.toNumpyArray()`
 - [ ] Add `list(vec)` and `tuple(vec)`
-- [ ] Create optimised list of `Vectors`
+- [ ] Create optimised list of `Vectors`; and compare efficiency against 2D numpy array
