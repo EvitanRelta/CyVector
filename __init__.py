@@ -1,1 +1,1 @@
-from CyVector.CyVector import Vector
+from .vector import Vector
