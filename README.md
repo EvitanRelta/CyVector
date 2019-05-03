@@ -19,7 +19,7 @@ Calculates and returns the magnitude.
 Constructs and returns the unit vector.
 > **Note:** Similar to `magnitude`, first time `unitVec` is called, the unit vector is calculated, saved in `_unitVecVal` and returned; unless `x` or `y` is changed.
 #### `copy`
-Constructs and returns a new `Vector` with the `x`, `y` values, and `_magVal` and `_unitVecVal` values _(if they've been calculated)_.
+Constructs and returns a new `Vector` with the same `x`, `y` values, and same `_magVal` and `_unitVecVal` values _(if they've been calculated)_.
 
 <br>
 
