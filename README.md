@@ -8,6 +8,10 @@ Just import CyVector and use the `Vector` class
 
 > **Note:** Changing the `CyVector.pyd` file name will break the module. If you want to change its name, you'll have to recompile it.
 
+<br>
+
+***
+# Documentation
 ## Properties
 #### `x` and `y`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the x and y values of the 2D vector.
